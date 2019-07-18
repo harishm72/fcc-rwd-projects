@@ -1,4 +1,4 @@
-# fcc-rwd-tribute-page
+# fcc-rwd-projects
 
 Free Code Camp - responsive web design certification projects. 
 
