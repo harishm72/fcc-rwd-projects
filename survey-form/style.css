@@ -1,0 +1,32 @@
+body {
+    background-color: #a9d7d1;
+    font-family: Roboto, sans-serif;
+    padding: 2%;
+}
+
+.main-header {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.section {
+    background-color: white;
+    border-radius: 4px;
+    padding: 2%;
+    margin: 1em 6em;
+    text-align: center;
+}
+
+.input-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.input-container label {
+    justify-self: end;
+}
+
+.input-container input {
+    justify-self: start
+}
