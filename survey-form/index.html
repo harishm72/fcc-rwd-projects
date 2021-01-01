@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tribute to A P J Abdul Kalam</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/cssReset.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <!-- Using ID's because the of problem set requirements -->
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!-- Using ID's because the of problem set requirements -->
+    <div id="main">
+      <header class="header">
+        <h1 id="title">
+          Feedback Form
+        </h1>
+        <p id="description">Please help us improve by providing your feedback.</p>
+      </header>
+      <section class="section">
+        <form id="survey-form">
+          <div class="input-cont">
+            <input required id="name" type="text" placeholder="Enter your Full Name" />
+            <label for="name" id="name-label">Name</label>
+          </div>
+          <div class="input-cont">
+            <input
+               required
+              id="email"
+              type="email"
+              placeholder="Enter your Email Address"
+            />
+            <label for="email" id="email-label">Email</label>
+          </div>
+          <div class="input-cont">
+            <input
+              id="number"
+              type="number"
+              min="18"
+              max="100"
+              placeholder="Enter your Age"
+            />
+            <label for="number" id="number-label">Age</label>
+          </div>
+          <div class="flex-col">
+            <label>Select your profession</label>
+            <select id="dropdown">
+              <option disabled selected>Select your profession</option>
+              <option>Student</option>
+              <option>Professional</option>
+              <option>Unemployed</option>
+              <option>Freelancer</option>
+              <option>others</option>
+            </select>
+          </div>
+          <div class="gender-section">
+            <div>Gender</div>
+            <div>
+              <label>
+              <input type="radio" name="gender" value="male" />
+              Male
+            </label>
+            <label>
+              
+              <input type="radio" name="gender" value="female" />
+              Female
+            </label>
+            <label>
+              
+              <input type="radio" name="gender" value="others" />
+              Others
+            </label>
+            </div>
+          </div>
+          <div class="flex-col">
+            <label class="flex-col">
+              Where can we improve ?<small>(Select all that apply)</small>
+              </label>
+              <label>
+                User Interface
+                <input type="checkbox" value="ui" />
+              </label>
+              <label>
+                User Experience
+                <input type="checkbox" value="ui" />
+              </label>
+              <label>
+                Customer Support
+                <input type="checkbox" value="ui" />
+              </label>
+              <label>
+                Pricing
+                <input type="checkbox" value="ui" />
+              </label>
+              <label>
+                More features
+                <input type="checkbox" value="ui" />
+              </label>
+          </div>
+          <div>
+            <textarea style="width: 100%;height: 4rem;margin: 12px 0;" placeholder="Add your comments"></textarea>
+          </div>
+          <div class="submit-cont">
+          <button type="submit" id="submit" class="submit-button">
+Submit
+</button>
+          </div>
+        </form>
+      </section>
+    </div>
+ 
+
+  </body>
+</html>
