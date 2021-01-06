@@ -1,0 +1,151 @@
+:root {
+  --btn-color: rgb(207, 238, 36);
+}
+
+body {
+  color: var(--btn-color);
+  line-height: 1.33333;
+  background-color: rgb(21, 20, 27);
+}
+
+main {
+  margin-top: 60px;
+  background-color: rgb(21, 20, 27);
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:active,
+a:hover {
+  text-decoration: underline;
+}
+
+#header {
+  background-color: rgb(21, 20, 27);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* box-shadow: 0px 4px 4px white; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem;
+}
+
+.logo {
+  flex-basis: 20rem;
+}
+
+.header-nav {
+  flex-basis: 40rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  background-color: var(--btn-color);
+  border: none;
+  border-radius: 4px;
+  color: black;
+  width: 5rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  padding: 0.25rem;
+}
+
+.content-section {
+  display: flex;
+  margin: 0 auto;
+  max-width: 64rem;
+  padding: 6rem;
+}
+
+.desc-section {
+  margin-bottom: 1rem;
+}
+
+.desc-section h3 {
+  font-size: 1.25rem;
+  /* font-weight: 700; */
+  letter-spacing: 1px;
+}
+
+.desc-section h1 {
+  color: white;
+  font-weight: 800;
+  font-size: 5rem;
+  margin: 2.5rem 0;
+}
+
+.desc-section p {
+  color: white;
+  margin: 2rem 0;
+  font-size: 1rem;
+}
+
+.video-cont {
+  align-self: center;
+}
+
+.img-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.img-cont img {
+  min-width: 100px;
+  width: auto;
+  height: 32px;
+  margin: 0.75rem;
+}
+
+@media (max-width: 867px) {
+  .content-section {
+    flex-direction: column;
+    margin: 0 1rem;
+    padding: 2rem;
+    justify-content: center;
+  }
+}
+
+#contact {
+  background-color: rgb(21, 20, 27);
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients-section {
+    text-align: center;
+    background-color: white;
+}
+
+.clients-section span {
+    color: black;
+    padding: 0.5rem;
+    height: 2rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(207, 238, 36);
+}
+
+#form input {
+    width: 18rem;
+    height: 2.5rem;
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.email-field {
+    border-radius: 4px;
+}
