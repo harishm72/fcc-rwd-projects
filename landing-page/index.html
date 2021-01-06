@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Product Landing Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/cssReset.css" />
+  <link rel="stylesheet" href="./styles/styles.css" />
+</head>
+
+<body>
+  <!-- Using ID's because the of problem set requirements -->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <!-- Using ID's because the of problem set requirements -->
+  <header id="header">
+    <div class="logo"><img id="header-img" src="./images/logo.png" alt="logo" height="32px" /></div>
+    <nav id="nav-bar" class="header-nav">
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#our-clients">Our Clients</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section id="about" class="content-section">
+      <div class="desc-section">
+        <h3>Today's enterprise commerce platform</h3>
+        <h1>Flexible and fast launch.</h1>
+        <p>
+          Shop Plus is the only cost-effective enterprise platform that's built for change. Start selling online now.
+        </p>
+        <button class="btn">
+          Let's talk
+        </button>
+      </div>
+      <div class="video-cont">
+        <iframe id="video" allowtransparency="true" title="Wistia video player" allowFullscreen frameborder="0" scrolling="no"
+          class="wistia_embed" name="wistia_embed" src="https://fast.wistia.net/embed/iframe/pdcka1p7o8" width="400"
+          height="225"></iframe>
+      </div>
+    </section>
+  </main>
+  <section id="our-clients" class="clients-section">
+    <span>Our Clients</span>
+    <div class="img-cont">
+      <img src="./images/staples.svg" />
+      <img src="./images/allbirds.svg" />
+      <img src="./images/heinz.svg" />
+      <img src="./images/magnolia.svg" />
+      <img src="./images/lindt.svg" />
+      <img src="./images/logo.png" />
+    </div>
+  </section>
+  <section id="contact">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" class="email-field" type="email" name="email" placeholder="Email address" required />
+      <input id="submit" type="submit" class="btn" />
+    </form>
+  </section>
+</body>
+
+</html>
